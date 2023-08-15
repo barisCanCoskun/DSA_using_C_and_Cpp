@@ -1,0 +1,23 @@
+ascii table: 
+small alphapets: 97 - 122: total 26 elements,
+this means array of 26 elements is enough.
+
+char a[] = "finding";
+
+++hashArr[MAX_SMALL_LETTERS - a[i]];
+
+i = 0 : 122 - 'f' = 122 - 102 = 20
+++hashArr[20];
+
+i = 1 : 122 - 'i' = 122 - 105 = 17
+++hashArr[17];
+
+
+
+
+
+
+
+
+
+
