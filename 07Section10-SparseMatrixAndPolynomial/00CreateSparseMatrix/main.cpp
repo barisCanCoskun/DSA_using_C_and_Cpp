@@ -37,7 +37,7 @@ void create(Sparse *sparse)
         // std::cin >> sparse->element[i].j;
         // std::cout << ": ";
         // std::cin >> sparse->element[i].x;
-        }
+    }
 
 }
 

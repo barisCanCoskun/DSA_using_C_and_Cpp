@@ -3,19 +3,19 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: g++.exe build active file",
-			"command": "C:/mingw64/bin/g++.exe",
+			"label": "C/C++: g++ etkin dosyayı derle",
+			"command": "/usr/bin/g++",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
 				"-Wall",
 				"-std=c++17",
-				"${fileDirname}\\*.cpp",
+				"${fileDirname}/*.cpp",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}/${fileBasenameNoExtension}"
 			],
 			"options": {
-				"cwd": "C:/mingw64/bin"
+				"cwd": "${fileDirname}"
 			},
 			"problemMatcher": [
 				"$gcc"
@@ -24,7 +24,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "compiler: C:/mingw64/bin/g++.exe"
+			"detail": "derleyici: /usr/bin/g++"
 		}
 	]
 }
